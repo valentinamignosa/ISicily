@@ -165,10 +165,16 @@
     <text>
         <body>
             <div type="edition" xml:lang="grc" resp="#VM">
-                <ab>
-                    <lb type="textpart" subtype="face" n="a"/>θεῶν ὄπλα
-                    <lb type="textpart" subtype="face" n="b"/>ἱερὸς  θεῶν σωτήρων
-                </ab>
+                <div type="textpart" subtype="face" n="a">
+                    <ab>
+                       <lb n="0"/>θεῶν ὄπλα
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="b">
+                    <ab>
+                        <lb n="0"/>ἱερὸς θεῶν σωτήρων
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
