@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>I.Sicily inscription 1148</title>
+                <title>I.Sicily inscription 1143</title>
                 <editor ref="#JP">Jonathan Prag</editor>
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
@@ -27,20 +27,16 @@
                 <respStmt>
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
-                </respStmt>
-                <respStmt>
-                    <name xml:id="VM" ref="https://orcid.org/0000-0002-7122-2511">Valentina Mignosa</name>
-                    <resp>encoding text division</resp>
-                </respStmt>
+                </respStmt>   
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
-                <idno type="filename">ISic1148</idno>
-                <idno type="TM">492761</idno>
+                <idno type="filename">ISic1143</idno>
+                <idno type="TM">492756</idno>
                 <idno type="EDR"/>
                 <idno type="EDH"/>
                 <idno type="EDCS"/>
-                <idno type="PHI">140633</idno>
+                <idno type="PHI">140628</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative
                         Commons-Attribution 4.0 licence.
@@ -49,14 +45,12 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><!--Default country and region-->
+                    <msIdentifier>
                         <country>Italy</country>
                         <region>Sicily</region>
                         <settlement>Termini Imerese</settlement>
-                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/066">Museo Civico
-                            Baldassare Romano
-                        </repository>
-                        <idno type="inventory">132</idno>
+                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/066">Museo Civico Baldassare Romano</repository>
+                        <idno type="inventory">137</idno>
                         <!--Adding location for old id numbers if available-->
                         <altIdentifier>
                             <settlement/>
@@ -71,20 +65,18 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="stone" ref="http://www.eagle-network.eu/voc/material/lod/2.html">
-                                        stone
-                                    </material>
-                                    <dimensions><!--Default values and requires editing-->
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                        <depth unit="cm"/>
+                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">marble (white)</material>
+                                    <objectType n="plaque" ref="http://www.eagle-network.eu/voc/objtyp/lod/259.html">plaque</objectType>
+                                    <dimensions><!--from IGTermini  -->
+                                        <height unit="cm">22.5</height>
+                                        <width unit="cm">37</width>
+                                        <depth unit="cm">2.3</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><!--Default value and requires checking-->
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved
-                                    </rs>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -104,18 +96,15 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462513">Thermae Himeraeae
-                                    <geo>37.98365, 13.69555</geo>
+                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462513">Thermae Himeraeae<geo>37.98365, 13.69555</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://sws.geonames.org/6539140">
-                                    Termini Imerese
-                                </placeName>
+                                <placeName type="modern" ref="http://sws.geonames.org/6539140">Termini Imerese</placeName>
                             </origPlace>
-                            <origDate n="JK" notBefore-custom="0100" notAfter-custom="0300">C2 AD - C3 AD</origDate>
+                            <origDate n="M" notBefore-custom="0400" notAfter-custom="0500">C5 AD</origDate>
                         </origin>
-                        <provenance type="found"/>
+                        <provenance type="found">found with CIL 10.7412 (ISic0183) outside the city gates of Termini in 1824</provenance>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
-                        <acquisition>Termini Imerese, Museo Civico Baldassare Romano no. 132</acquisition>
+                        <acquisition>Termini Imerese, Museo Civico Baldassare Romano no. 137</acquisition>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -126,7 +115,7 @@
                     <p>Julian Calendar</p>
                 </calendar>
             </calendarDesc>
-            <langUsage><!--English and Italian added by default (for translations) delete where not appropriate.-->
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="it">Italian</language>
                 <language ident="grc">Ancient Greek</language>
@@ -140,7 +129,7 @@
         <revisionDesc status="draft">
             <listChange>
                 <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
-                <change when="2020-10-05" who="#MV">Valentina Mignosa encoded text division</change>
+                <change when="2020-08-27" who="#JP">Jonathan Prag made draft revisions based upon existing publications</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -162,48 +151,50 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:lang="grc" resp="#VM">
+            <div type="edition" xml:lang="grc" resp="#JP">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>μ</unclear>ε
-                    <lb n="2"/><supplied reason="lost">χαῖ</supplied>ρε
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>τατε
-                    <lb n="4"/>Νεμηνίδα
-                    <lb n="5"/>Ἀριστοδάμου
-                    <lb n="6"/>χαῖρε
-                    <lb n="7"/>Κλεοπάτρα
-                    <lb n="8"/>Νεμηνίδα
-                    <lb n="9"/>χαῖρε
-                    <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ε μεγαλόδοξε <space quantity="1" unit="character"/>Νεμηνίδα σύνευνε δῖα Κλεοπάτρα
-                    <lb n="11"/>Κούφη σεῖο Νεμηνίδα γαῖ’ ὄστεα κεύθοι
-                    <lb n="12"/>Κούφη σεῖο κέκευθε Νεμηνί<supplied reason="omitted">δ</supplied>α ὄστεα γαῖα
+                    <lb n="1"/>Μάξιμος
+                    <lb n="2"/>Διδύμου υἱὸς
+                    <lb n="3"/>ἔζησεν ἔτη <num value="23">κγ</num>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of IGTermini</note></app>
+                    <app>
+                        <note>Text of IGTermini</note>
+                    </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
+            <div type="translation" xml:lang="en" resp="#JP">
+                <p>Maximos son of Didymos lived for 23 years</p>
             </div>
             <div type="commentary">
                 <p><!--commented out pending revision-->
-                    <!--to several people of the same family? Aristodamos, Nemenidas son of Aristodamos, Cleopatra wife of Nemenidas, Aristodamos...followed by several verses. N and C could be the parents of the Aristodamos the poet of IGTI no.5. The verses include the idea of 'sit tibi terra levis', but Brugnone and others are keen that this is not a purely latin idea, citing plenty of Greek parallels. The verses appear to be added a little later than the epitaphs, being of a diff / later script. Detail on the names in IGTI 5.-->
+                    <!--Maximos (Maximus) son of Didymos (Didimus); age in years. Similar to IG 14.322 = IGLPa 121; 'La presenza dell'indicazione huios scritta per esteso e l'abbandono dei tria nomina e indizio di cristianesimo'. Name Maximus common in Sic. inscr.s.-->
                 </p>
             </div>
             <div type="bibliography">
                 <listBibl>
+                    <bibl>
+                        <author>Crispi</author>
+                        <date>1824</date>
+                        <citedRange>82 no.1</citedRange>
+                        <ptr target="http://zotero.org/groups/382445/items/43IBXI4E"/>
+                    </bibl>
                     <bibl type="IG">
                         <citedRange>
-                            <ref target="https://clio.columbia.edu/catalog/6873760">14.0329</ref>
+                            <ref target="https://clio.columbia.edu/catalog/6873760">14.0324</ref>
                         </citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/Q2SBPG9F"/>
                     </bibl>
                     <bibl type="IGMusTermini">
-                        <citedRange>14</citedRange>
+                        <citedRange>18</citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/9WZ7KU5C"/>
                     </bibl>
-                    <bibl/>
+                    <bibl type="CIG">
+                        <citedRange>3.5583</citedRange>
+                        <ptr target="https://www.zotero.org/groups/382445/items/HTUDQBXS"/>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
