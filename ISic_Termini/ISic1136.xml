@@ -166,7 +166,7 @@
         <body>
             <div type="edition" xml:lang="grc" resp="#VM">
                 <ab>
-                    <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="line"/> <!-- empty line numbered in the Brugnone edition -->
                     <lb n="2"/><supplied reason="lost">ἐ</supplied><unclear>πὶ τ</unclear>ὸ άλει<unclear>π</unclear><supplied reason="lost">τήριον ἐκ τοῦ</supplied>
                     <lb n="3"/><supplied reason="lost">ἰ</supplied>δίου ποιή<unclear>σαντα</unclear>
                     <lb n="4"/><supplied reason="lost">κ</supplied>αὶ τὰς διώρυγας <unclear>καὶ τ</unclear><supplied reason="lost">ὰν</supplied>
@@ -178,6 +178,7 @@
                     <lb n="10"/><supplied reason="lost">π</supplied><unclear>οι</unclear>ήσαντα <space quantity="1" unit="character"/> εὐνοίας
                     <lb n="11"/><supplied reason="lost">ἕνεκα</supplied> 
                 </ab>
+            </div>
             <div type="apparatus">
                 <listApp>
                     <app><note>Text of IGTermini</note></app>
